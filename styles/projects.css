@@ -1,0 +1,34 @@
+body{
+    font-family: arial;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:arial;
+    padding: 0px;
+    margin: 0px;
+}
+.start .menu #logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.start .menu{
+    display: flex;
+}
+.start .menu header{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+main{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(212, 211, 211);
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(75, 74, 74);
+}
