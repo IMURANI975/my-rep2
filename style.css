@@ -131,7 +131,7 @@ body{
 @media only screen and  (max-width:600px)
 {
     #main {
-        width:400px ;
+        width:95% ;
         height: 600px;
         background-color: rgb(241, 234, 234);
         margin-left: 5px;
@@ -139,20 +139,20 @@ body{
         margin-top: 20px;
     }
     #main #inside{
-        width:400px ;
-        height: 500px;
+        width:90%;
+        height: 800px;
         background-color: rgb(192, 188, 188);
         margin-left: 0px;
         margin-right: 5px;
         margin-top:0px;
     }
     #main #inside .part1{
-        height:500px ;
+        height:80%;
         width:400px ;
     }
     #main #inside .part1 .insider{
         margin: 30px;
-        width: 380px;
+        width: 80%;
         height: 110px;
         display: flex;
     }
@@ -164,16 +164,23 @@ body{
     #main #inside .part1 #par{
         margin: 20px;
         color: rgb(100, 98, 98);
-        font-size:20px;
+        font-size:22px;
     }
     #main #inside .part1 #parag{
         color: rgb(97, 95, 95);
         margin-left: 20px;
         margin-top: 5px;
-        font-size: 12px;
+        font-size: 16px;
         margin-right: 5px;
     }
     body{
-        background-color: rgb(192, 188, 188) ;
+        background-color: rgb(192, 188, 188) ;  
+                                                 width:100%;
     }
+.start.menu #logo{
+      margin-left:17px;
+}
+#main #inside .part1 h3{
+font-size:25px;
+}
 }
